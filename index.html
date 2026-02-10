@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BLEprint | AI-Guided Construction Safety</title>
-    <meta name="description" content="See what's behind the walls. AI-powered real-time guidance for construction workers to prevent costly mistakes.">
+    <title>BLEprint | Computer Vision for Construction Safety</title>
+    <meta name="description" content="Stop utility strikes before they happen. WiFi-based computer vision shows construction workers what's hidden behind walls—preventing $56K mistakes.">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
@@ -21,6 +21,7 @@
                 <a href="#problem">Problem</a>
                 <a href="#solution">Solution</a>
                 <a href="#demo">Demo</a>
+                <a href="#validation">Validation</a>
                 <a href="#team">Team</a>
                 <a href="#contact" class="cta-button">Contact</a>
             </div>
@@ -30,28 +31,27 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-bg">
-            <div class="gradient-orb orb-1"></div>
-            <div class="gradient-orb orb-2"></div>
-            <div class="gradient-orb orb-3"></div>
+            <div class="grid-pattern"></div>
+            <div class="scan-line"></div>
         </div>
         <div class="container hero-content">
-            <div class="hero-badge">AI-Guided Construction Safety</div>
+            <div class="hero-badge">Computer Vision for Construction Safety</div>
             <h1 class="hero-title">
-                See What's Behind the Walls
+                X-Ray-Like Vision<br/>for Construction Sites
             </h1>
-            <p class="hero-subtitle">AI-powered real-time guidance prevents construction workers from drilling into critical infrastructure. Save hundreds of thousands in damages.</p>
+            <p class="hero-subtitle">Document as you build. See what's hidden when you drill. WiFi-based computer vision prevents workers from hitting critical infrastructure—saving $56K per incident.</p>
             <div class="hero-stats">
                 <div class="stat">
-                    <div class="stat-number">50+</div>
-                    <div class="stat-label">Interviews Conducted</div>
+                    <div class="stat-icon">✓</div>
+                    <div class="stat-label">Validated by 50+ construction workers in the field</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-number">$100K+</div>
-                    <div class="stat-label">Average Savings per Incident</div>
+                    <div class="stat-icon">✓</div>
+                    <div class="stat-label">Working prototype built in 24 hours</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-number">1</div>
-                    <div class="stat-label">Working Prototype</div>
+                    <div class="stat-icon">✓</div>
+                    <div class="stat-label">Moving to phone-only software</div>
                 </div>
             </div>
             <a href="#demo" class="hero-cta">Watch Demo</a>
@@ -63,15 +63,17 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-tag">The Problem</span>
-                <h2 class="section-title">One Wrong Drill Costs Hundreds of Thousands</h2>
+                <h2 class="section-title">Every Utility Strike Costs $56,000</h2>
+                <p class="section-subtitle">Workers operate semi-blind with unreliable tools. The industry loses $30B annually.</p>
             </div>
             <div class="problem-content">
                 <div class="problem-story">
                     <div class="incident-card">
-                        <h3>The Incident</h3>
-                        <p>A worker drilled into a water pipe behind a wall. The entire building's water supply had to be shut down. Construction delayed. Costs skyrocketed.</p>
-                        <div class="incident-quote">"We want an X-RAY to see behind walls!"</div>
-                        <div class="incident-source">— UCSD Construction Worker</div>
+                        <div class="incident-label">Real Worker Story</div>
+                        <h3>The Water Main Strike</h3>
+                        <p>A construction worker drilled into a concealed water pipe. The building's entire water supply shut down. Days of delays. Emergency repairs. Tens of thousands in losses.</p>
+                        <div class="incident-quote">"We need X-ray vision to see behind walls!"</div>
+                        <div class="incident-source">— Construction Worker, UCSD Campus Project</div>
                     </div>
                 </div>
                 <div class="problem-list">
@@ -80,28 +82,21 @@
                         <div class="problem-number">01</div>
                         <div class="problem-text">
                             <h4>Hidden Infrastructure</h4>
-                            <p>Mechanical, plumbing, and electrical (MPE) systems are invisible behind walls. Workers drill blind.</p>
+                            <p>MEP (Mechanical, Electrical, Plumbing) systems are invisible behind finished walls. Existing tools are expensive and unreliable.</p>
                         </div>
                     </div>
                     <div class="problem-item">
                         <div class="problem-number">02</div>
                         <div class="problem-text">
-                            <h4>Outdated Plans</h4>
-                            <p>Blueprint PDFs don't match reality. As-built conditions differ from original plans.</p>
+                            <h4>Outdated Plans Don't Match Reality</h4>
+                            <p>Blueprint PDFs show the design—not as-built conditions. Changes during construction aren't documented.</p>
                         </div>
                     </div>
                     <div class="problem-item">
                         <div class="problem-number">03</div>
                         <div class="problem-text">
-                            <h4>Costly Mistakes</h4>
-                            <p>Each incident costs $100K+ in repairs, delays, and safety shutdowns.</p>
-                        </div>
-                    </div>
-                    <div class="problem-item">
-                        <div class="problem-number">04</div>
-                        <div class="problem-text">
-                            <h4>Worker Training Gap</h4>
-                            <p>New workers lack experience. Even veterans make mistakes without real-time guidance.</p>
+                            <h4>Massive Financial Impact</h4>
+                            <p>Average utility strike: $56,000 in direct costs. Industry-wide: $30 billion annually in the US alone.<sup><a href="#sources" class="source-link">[1,2]</a></sup></p>
                         </div>
                     </div>
                 </div>
@@ -114,23 +109,26 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-tag">The Solution</span>
-                <h2 class="section-title">AI-Guided X-Ray Vision for Construction</h2>
+                <h2 class="section-title">Document As You Build.<br/>See Through Walls When You Drill.</h2>
             </div>
             <div class="solution-grid">
                 <div class="solution-card">
-                    <div class="card-number">01</div>
-                    <h3>Scan the Wall</h3>
-                    <p>Workers use their smartphone or tablet to scan any wall surface. Our BLE-based detection system identifies hidden MPE components in real-time.</p>
+                    <div class="card-icon">📸</div>
+                    <div class="card-number">Step 1</div>
+                    <h3>Capture As-Built Photos</h3>
+                    <p>Workers use their smartphones to photograph walls during construction—before MEP systems are concealed behind drywall.</p>
                 </div>
                 <div class="solution-card">
-                    <div class="card-number">02</div>
-                    <h3>AI Real-Time Guidance</h3>
-                    <p>AI analyzes what the worker sees and provides instant voice guidance: "Stop—water pipe 3 inches behind this spot" or "Safe to drill here—clear zone ahead."</p>
+                    <div class="card-icon">🗺️</div>
+                    <div class="card-number">Step 2</div>
+                    <h3>Build 3D Map with Computer Vision</h3>
+                    <p>WiFi-based localization and computer vision create a precise spatial database of what's actually behind each wall.</p>
                 </div>
                 <div class="solution-card">
-                    <div class="card-number">03</div>
-                    <h3>See Through Walls</h3>
-                    <p>Augmented reality overlay shows exact locations of pipes, wires, and ducts. Like X-ray vision powered by building data and AI.</p>
+                    <div class="card-icon">👁️</div>
+                    <div class="card-number">Step 3</div>
+                    <h3>See Hidden Infrastructure</h3>
+                    <p>When drilling later, workers scan the wall with their phone. Augmented reality overlay shows exact pipe/wire locations—like X-ray vision.</p>
                 </div>
             </div>
             
@@ -138,34 +136,34 @@
                 <h3>How It Works</h3>
                 <div class="workflow">
                     <div class="workflow-step">
-                        <div class="step-number">1</div>
+                        <div class="step-icon">📐</div>
                         <div class="step-content">
-                            <h4>Building Data Integration</h4>
-                            <p>We import MEP blueprints and as-built data into our spatial database.</p>
+                            <h4>1. As-Built Documentation</h4>
+                            <p>Take photos of exposed MEP systems during construction phases. No special equipment needed.</p>
                         </div>
                     </div>
                     <div class="workflow-arrow">→</div>
                     <div class="workflow-step">
-                        <div class="step-number">2</div>
+                        <div class="step-icon">📡</div>
                         <div class="step-content">
-                            <h4>Real-Time Detection</h4>
-                            <p>BLE sensors and computer vision determine worker location and wall orientation.</p>
+                            <h4>2. WiFi Localization</h4>
+                            <p>Standard computer vision determines exact camera position and wall orientation in 3D space.</p>
                         </div>
                     </div>
                     <div class="workflow-arrow">→</div>
                     <div class="workflow-step">
-                        <div class="step-number">3</div>
+                        <div class="step-icon">🤖</div>
                         <div class="step-content">
-                            <h4>AI Guidance Layer</h4>
-                            <p>Multimodal AI sees through the worker's camera, reasons about context, and provides real-time voice guidance.</p>
+                            <h4>3. AI Analysis</h4>
+                            <p>Multimodal AI processes images, identifies MEP components, and maps their 3D locations relative to finished wall surfaces.</p>
                         </div>
                     </div>
                     <div class="workflow-arrow">→</div>
                     <div class="workflow-step">
-                        <div class="step-number">4</div>
+                        <div class="step-icon">✅</div>
                         <div class="step-content">
-                            <h4>Safe Execution</h4>
-                            <p>Worker receives clear AR overlay and voice instructions to drill safely.</p>
+                            <h4>4. AR Overlay</h4>
+                            <p>Workers see pipes, wires, and ducts overlaid on their phone screen. Visual alerts prevent strikes.</p>
                         </div>
                     </div>
                 </div>
@@ -173,15 +171,27 @@
 
             <div class="ai-enhancement">
                 <div class="ai-content">
-                    <h3>The AI Advantage</h3>
-                    <p>Instead of requiring years of experience to understand building systems, workers get instant AI coaching:</p>
+                    <h3>Why Computer Vision + AI?</h3>
+                    <p>Traditional methods require expensive equipment and expert interpretation. Our approach turns every smartphone into a safety tool:</p>
                     <div class="ai-examples">
-                        <div class="ai-example">"Water main detected 4 inches ahead—do not drill"</div>
-                        <div class="ai-example">"Electrical conduit runs vertically here—drill horizontally instead"</div>
-                        <div class="ai-example">"Clear zone—safe to proceed with anchor installation"</div>
-                        <div class="ai-example">"This valve controls water to floors 3-5—tag before work"</div>
+                        <div class="ai-example">
+                            <div class="example-icon">⚠️</div>
+                            <div class="example-text">Visual alert: "Water main 4 inches ahead—do not drill here"</div>
+                        </div>
+                        <div class="ai-example">
+                            <div class="example-icon">↕️</div>
+                            <div class="example-text">Spatial guidance: "Electrical conduit runs vertically—drill horizontally"</div>
+                        </div>
+                        <div class="ai-example">
+                            <div class="example-icon">✓</div>
+                            <div class="example-text">Confirmation: "Clear zone—safe to install anchor"</div>
+                        </div>
+                        <div class="ai-example">
+                            <div class="example-icon">🏷️</div>
+                            <div class="example-text">Context: "Main valve controls water to floors 3-5"</div>
+                        </div>
                     </div>
-                    <p>Multimodal AI can see, reason, and guide. Workers become effective immediately, accessing expert-level knowledge on demand.</p>
+                    <p class="ai-summary">Computer vision captures reality. AI understands it. Workers make informed decisions—instantly.</p>
                 </div>
             </div>
         </div>
@@ -195,48 +205,63 @@
                 <h2 class="section-title">Working Prototype Demo</h2>
             </div>
             <div class="demo-content">
-                <div class="video-wrapper">
-                    <iframe 
-                        width="100%" 
-                        height="100%" 
-                        src="https://www.youtube.com/embed/a1c7LX9IbKo" 
-                        title="BLEprint Demo" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                    </iframe>
+                <div class="video-container">
+                    <div class="video-wrapper">
+                        <iframe 
+                            width="100%" 
+                            height="100%" 
+                            src="https://www.youtube.com/embed/a1c7LX9IbKo" 
+                            title="BLEprint Demo" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
                 </div>
                 <div class="demo-description">
-                    <h3>Built in 48 Hours</h3>
-                    <p>Our hackathon prototype demonstrates real-time wall scanning and MPE detection. This proves the technical feasibility of our approach.</p>
-                    <p><strong>Next steps:</strong> Integrating AI guidance layer, expanding to full building datasets, and deploying at construction sites.</p>
+                    <h3>Built in 24 Hours</h3>
+                    <p>Our hackathon prototype demonstrates real-time wall scanning and MEP detection using computer vision and WiFi localization.</p>
+                    <div class="demo-next">
+                        <h4>Next Steps:</h4>
+                        <ul>
+                            <li>Moving entirely to phone-based software (no external hardware)</li>
+                            <li>Integrating multimodal AI for real-time analysis</li>
+                            <li>Expanding to full building datasets</li>
+                            <li>Pilot deployment at active construction sites</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Traction Section -->
-    <section class="section traction-section">
+    <!-- Validation Section -->
+    <section id="validation" class="section validation-section">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">Traction & Validation</span>
-                <h2 class="section-title">Market Demand Is Real</h2>
+                <span class="section-tag">Market Validation</span>
+                <h2 class="section-title">Validated by Workers in the Field</h2>
             </div>
-            <div class="traction-grid">
-                <div class="traction-card">
-                    <div class="traction-stat">50+</div>
-                    <h4>Customer Discovery Interviews</h4>
-                    <p>Spoke with construction workers, foremen, project managers, and facilities teams at active construction sites.</p>
+            <div class="validation-grid">
+                <div class="validation-card">
+                    <div class="validation-stat">50+</div>
+                    <h4>Field Interviews</h4>
+                    <p>Spoke directly with construction workers, foremen, project managers, and facilities teams at active sites.</p>
                 </div>
-                <div class="traction-card">
-                    <div class="traction-stat">100%</div>
-                    <h4>Want Solution Immediately</h4>
-                    <p>"People want a solution right now." Workers are eager for technology that prevents costly mistakes.</p>
+                <div class="validation-card">
+                    <div class="validation-stat">100%</div>
+                    <h4>Immediate Interest</h4>
+                    <p>"Workers want this right now." Every person we interviewed expressed urgent need for better MEP visibility tools.</p>
                 </div>
-                <div class="traction-card">
-                    <div class="traction-stat">$1B+</div>
-                    <h4>Annual Industry Damage Costs</h4>
-                    <p>Utility strikes and MPE damage cost the construction industry over $1 billion annually in the US alone.</p>
+                <div class="validation-card">
+                    <div class="validation-stat">$30B</div>
+                    <h4>Annual Industry Cost</h4>
+                    <p>Utility strikes cost the US construction industry $30 billion per year.<sup><a href="#sources" class="source-link">[2]</a></sup></p>
+                </div>
+                <div class="validation-card highlight">
+                    <div class="validation-quote">"We want an X-ray to see behind walls!"</div>
+                    <div class="validation-source">— UCSD Construction Worker</div>
+                    <p class="validation-context">This quote came from a real worker who had just experienced a costly water main strike. It's not a feature request—it's a desperate need.</p>
                 </div>
             </div>
         </div>
@@ -247,27 +272,35 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-tag">The Team</span>
-                <h2 class="section-title">Builders Who Move Fast</h2>
+                <h2 class="section-title">Builders Who Ship Fast</h2>
             </div>
             <div class="team-grid">
                 <div class="team-card">
                     <div class="team-photo">
-                        <img src="profileK.png" alt="Co-Founder" onerror="this.src='https://via.placeholder.com/400x400/2563EB/ffffff?text=K'">
+                        <img src="profileK.png" alt="Co-Founder" onerror="this.src='https://via.placeholder.com/400x400/0A0E27/00D9FF?text=K'">
                     </div>
                     <div class="team-info">
                         <h3>Co-Founder</h3>
-                        <p class="team-bio">Built the working prototype in 48 hours. Experience in spatial computing and IoT systems. Conducted 50+ customer interviews.</p>
-                        <a href="https://kirustar14.github.io/" target="_blank" class="team-link">View Portfolio →</a>
+                        <div class="team-highlights">
+                            <span class="highlight-badge">Technical Lead</span>
+                            <span class="highlight-badge">Spatial Computing</span>
+                        </div>
+                        <p class="team-bio">Built working prototype in 24 hours. Background in IoT systems and computer vision. Led 50+ customer discovery interviews.</p>
+                        <a href="https://kirustar14.github.io/" target="_blank" class="team-link">Portfolio →</a>
                     </div>
                 </div>
                 <div class="team-card">
                     <div class="team-photo">
-                        <img src="profileZ.png" alt="Co-Founder" onerror="this.src='https://via.placeholder.com/400x400/1E40AF/ffffff?text=Z'">
+                        <img src="profileZ.png" alt="Co-Founder" onerror="this.src='https://via.placeholder.com/400x400/0A0E27/00D9FF?text=Z'">
                     </div>
                     <div class="team-info">
                         <h3>Co-Founder</h3>
-                        <p class="team-bio">Deep construction industry insights from on-site research. Driving product direction based on real user needs and market validation.</p>
-                        <a href="https://mmzarif.github.io/" target="_blank" class="team-link">View Portfolio →</a>
+                        <div class="team-highlights">
+                            <span class="highlight-badge">Industry Insights</span>
+                            <span class="highlight-badge">Product Strategy</span>
+                        </div>
+                        <p class="team-bio">Deep construction industry knowledge from on-site research. Driving product direction based on validated user needs and market analysis.</p>
+                        <a href="https://mmzarif.github.io/" target="_blank" class="team-link">Portfolio →</a>
                     </div>
                 </div>
             </div>
@@ -279,25 +312,29 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-tag">Market Opportunity</span>
-                <h2 class="section-title">Massive TAM, Clear Path</h2>
+                <h2 class="section-title">Large TAM, Clear Beachhead</h2>
             </div>
             <div class="market-content">
                 <div class="market-stat-large">
-                    <div class="market-number">$1.8T</div>
-                    <div class="market-label">US Construction Market</div>
+                    <div class="market-number">$1.9T</div>
+                    <div class="market-label">US Construction Market (2024)<sup><a href="#sources" class="source-link">[3]</a></sup></div>
+                    <div class="market-sublabel">MEP systems: 15-55% of project costs<sup><a href="#sources" class="source-link">[4]</a></sup></div>
                 </div>
                 <div class="market-breakdown">
                     <div class="market-item">
-                        <h4>Immediate Beachhead: University Construction</h4>
-                        <p>$15B annual university construction spending. Institutions are risk-averse and will pay premium to prevent costly water pipe and electrical incidents.</p>
+                        <div class="market-icon">🎯</div>
+                        <h4>Beachhead: University Construction</h4>
+                        <p><strong>$62B annual market.</strong><sup><a href="#sources" class="source-link">[5]</a></sup> Universities are risk-averse institutions that will pay premium to prevent costly incidents. Direct relationships with facilities teams. Clear ROI from avoiding shutdowns.</p>
                     </div>
                     <div class="market-item">
-                        <h4>Near-term: Commercial Construction</h4>
-                        <p>Every commercial project has MPE systems. General contractors are liable for damage. Our solution reduces insurance claims and project delays.</p>
+                        <div class="market-icon">🏗️</div>
+                        <h4>Expansion: Commercial Construction</h4>
+                        <p>Every commercial project has MEP infrastructure. General contractors are liable for damage and delays. Our solution reduces insurance claims and project risk.</p>
                     </div>
                     <div class="market-item">
-                        <h4>Long-term: Full-Stack AI Workforce</h4>
-                        <p>Build a superpowered construction workforce where any worker, guided by AI, can perform expert-level tasks. Scale beyond just MPE detection to full construction guidance.</p>
+                        <div class="market-icon">🌐</div>
+                        <h4>Vision: Essential Safety Infrastructure</h4>
+                        <p>Become the standard for construction safety documentation. Every project, from residential to industrial, needs accurate as-built records.</p>
                     </div>
                 </div>
             </div>
@@ -308,21 +345,65 @@
     <section id="contact" class="section contact-section">
         <div class="container">
             <div class="contact-content">
-                <h2>Ready to Prevent the Next $100K Mistake?</h2>
-                <p>Get in touch to learn more about BLEprint or schedule a demo of our AI-guided construction safety platform.</p>
+                <h2>Prevent the Next $56K Mistake</h2>
+                <p>Get in touch to learn more about BLEprint or schedule a demo of our computer vision construction safety platform.</p>
                 <div class="contact-info">
                     <div class="contact-item">
                         <div class="contact-label">Email</div>
-                        <a href="mailto:kiruthika.star14@gmail.com" class="contact-value">kiruthika.star14@gmail.com</a>
+                        <a href="mailto:contact@bleprint.com" class="contact-value">contact@bleprint.com</a>
                     </div>
                     <div class="contact-item">
-                        <div class="contact-label">Phone</div>
-                        <a href="tel:+19259677432" class="contact-value">+1 (925) 967-7432</a>
+                        <div class="contact-label">Founders</div>
+                        <div class="contact-value">Kiruthika & Mustahsin</div>
                     </div>
                 </div>
                 <div class="contact-buttons">
-                    <a href="mailto:kiruthika.star14@gmail.com" class="contact-btn primary">Send Email</a>
+                    <a href="mailto:contact@bleprint.com" class="contact-btn primary">Send Email</a>
                     <a href="https://www.youtube.com/watch?v=a1c7LX9IbKo" target="_blank" class="contact-btn secondary">Watch Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sources Section -->
+    <section id="sources" class="section sources-section">
+        <div class="container">
+            <h3>Data Sources</h3>
+            <div class="sources-list">
+                <div class="source-item">
+                    <span class="source-number">[1]</span>
+                    <div class="source-content">
+                        <strong>$56,000 average cost per utility strike:</strong> Finch study (2021) commissioned by GPRS. 
+                        <a href="https://www.gp-radar.com/article/avoiding-a-spike-in-utility-strikes-damage-costs-on-infrastructure-projects" target="_blank" rel="noopener">GP Radar, May 2024</a>
+                    </div>
+                </div>
+                <div class="source-item">
+                    <span class="source-number">[2]</span>
+                    <div class="source-content">
+                        <strong>$30 billion annual US construction industry cost from utility strikes:</strong> Common Ground Alliance analysis.
+                        <a href="https://bermex.acrt.com/articles/the-hidden-costs-of-utility-strikes-a-30-billion-problem/" target="_blank" rel="noopener">Bermex, October 2025</a>
+                    </div>
+                </div>
+                <div class="source-item">
+                    <span class="source-number">[3]</span>
+                    <div class="source-content">
+                        <strong>$1.9 trillion US construction market (2024):</strong> Expert Market Research industry report.
+                        <a href="https://www.expertmarketresearch.com/reports/united-states-construction-market" target="_blank" rel="noopener">EMR, 2024</a>
+                    </div>
+                </div>
+                <div class="source-item">
+                    <span class="source-number">[4]</span>
+                    <div class="source-content">
+                        <strong>MEP systems 15-55% of construction costs:</strong> Industry analysis by project type.
+                        <a href="https://www.mastt.com/guide/mep-construction" target="_blank" rel="noopener">Mastt, 2024</a>
+                    </div>
+                </div>
+                <div class="source-item">
+                    <span class="source-number">[5]</span>
+                    <div class="source-content">
+                        <strong>$62 billion US higher education construction market (2024):</strong> Market forecast and analysis.
+                        <a href="https://www.globenewswire.com/news-release/2025/09/02/3142458/0/en/United-States-Higher-Education-Construction-Outlook-and-Growth-Analysis-Report-2025-2034-Rising-Demand-for-Eco-friendly-Tech-integrated-Spaces-Propels-Market-Dynamics.html" target="_blank" rel="noopener">Globe Newswire, September 2025</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -336,13 +417,13 @@
                     <div class="logo">
                         <span class="logo-text">BLEprint</span>
                     </div>
-                    <p>AI-guided construction safety</p>
+                    <p>Computer vision for construction safety</p>
                 </div>
                 <div class="footer-links">
-                    <a href="https://kirustar14.github.io/" target="_blank">Kiruthika Marikumaran</a>
-                    <a href="https://mmzarif.github.io/" target="_blank">Mustahsin Zarif</a>
+                    <a href="https://kirustar14.github.io/" target="_blank">Kiruthika</a>
+                    <a href="https://mmzarif.github.io/" target="_blank">Mustahsin</a>
                     <a href="https://www.youtube.com/watch?v=a1c7LX9IbKo" target="_blank">Demo</a>
-                    <a href="mailto:kiruthika.star14@gmail.com">Contact</a>
+                    <a href="mailto:contact@bleprint.com">Contact</a>
                 </div>
             </div>
             <div class="footer-bottom">
